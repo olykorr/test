@@ -1,0 +1,37 @@
+/* Общие стили для страницы */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Стили для категорий */
+.list-group-item {
+    cursor: pointer;
+}
+
+.list-group-item.active {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+.list-group-item .category-arrow {
+    cursor: pointer;
+}
+
+.list-group-item:focus, .list-group-item:hover {
+    z-index: 1;
+    text-decoration: none;
+    color: white;
+    background-color: #8d075f;
+}
+
+.list-group-item.active {
+    background-color: #58053d;;
+    font-weight: bold;
+}
